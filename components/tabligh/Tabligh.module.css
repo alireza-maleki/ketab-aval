@@ -1,0 +1,13 @@
+.tabligh .pic {
+    margin: 2% auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.filtered {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    width: 100%;
+}

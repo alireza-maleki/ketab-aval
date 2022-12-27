@@ -1,0 +1,131 @@
+.summary {
+    width: 50%;
+    margin: 2% auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    list-style: none;
+    text-align: left;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    flex-direction: row-reverse;
+}
+
+.content {
+    border-right: 1px solid #ccc;
+}
+
+.content p {
+    color: #000;
+    text-align: right;
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 5px 20px;
+}
+
+.title div {
+    display: flex;
+    align-items: center;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.title h3 {
+    color: rgb(91, 91, 220);
+    text-align: right;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title h3:hover {
+    color: rgb(58, 58, 207);
+}
+
+.category p {
+    color: #000;
+    text-align: right;
+    padding: 0 34px;
+}
+
+.actions {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 20px;
+}
+
+.actions button {
+    border: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.1s;
+    font-weight: bold;
+}
+
+.actions .firstbtn {
+    background-color: #2e74b7;
+    color: #fff;
+}
+
+.actions .firstbtn:hover {
+    background-color: #27629a;
+}
+
+.actions .secondbtn {
+    background-color: #ffcd00;
+    color: #000;
+}
+
+.actions .secondbtn:hover {
+    background-color: #f0c104;
+}
+
+.call {
+    margin: 5px auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.call button {
+    width: 95.5%;
+    height: 32px;
+    background-color: #3cb878;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.call button:hover {
+    background-color: #369f69;
+    transition: 0.1s;
+}

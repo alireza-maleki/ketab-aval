@@ -1,0 +1,11 @@
+.select {
+    width: 100%;
+    background-color: red;
+}
+
+
+.select select{
+    width: 200px;
+    margin: 0.5rem 1rem;
+    padding: 0.4rem 0.8rem;
+}

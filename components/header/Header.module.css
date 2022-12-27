@@ -1,0 +1,58 @@
+.header {
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.controls {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control1 {
+    width: 60%;
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.control1 ul {
+    display: flex;
+    flex-direction: flex-start;
+    /* justify-content: space-around; */
+    align-items: center;
+    list-style: none;
+}
+
+.control1 ul a li{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.control1 ul a li span{
+    padding: 0 6px;
+}
+
+.control1 ul a li:hover {
+    color: yellow;
+}
+
+.control2 {
+    width: 6%;
+    margin: 0 15%;
+    cursor: pointer;
+}
+
+.control2:hover {
+    color: yellow;
+}

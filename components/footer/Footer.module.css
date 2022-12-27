@@ -1,0 +1,100 @@
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.query {
+    width: 55%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+/* #####################################  MEDIA */
+
+.media {
+    width: 30%;
+    text-align: center;
+}
+
+.media img {
+    cursor: pointer;
+}
+
+.media div {
+    margin: 20px 8px 0 0;
+}
+
+.media div img {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+/* #################################  FOOTER DETAIL */
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 70%;
+    vertical-align: baseline;
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.links h4 {
+    border-bottom: 0.1px solid #ccc;
+    padding: 12px 0;
+    color: #ffcd00;
+    width: 100%;
+}
+
+.links p {
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.links p:hover {
+    color: #ffcd00;
+    transform: translateX(-10px);
+}
+
+.enamad {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3% auto;
+}
+
+.enamad img {
+    width: 120px;
+    height: 120px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.enamad p {
+    color: #ccc;
+    font-size: 12px;
+
+}
+
+.enamad img:first-child {
+    height: 140px;
+}
+

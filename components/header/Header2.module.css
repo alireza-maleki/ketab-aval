@@ -1,0 +1,133 @@
+.container {
+    width: 100%;
+    height: 130px;
+    background-color: #ffcd00;
+}
+
+
+/* ####################### LOGO */
+
+.logo {
+    /* background-color: red; */
+    width: 500px;
+    height: 50px;
+    margin: 50px 0;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    margin: 4% 0;
+    cursor: pointer;
+}
+
+.logo p {
+    padding: 0 20px;
+    color: #000;
+    font-size: 20px;
+}
+
+.logo h3 {
+    color: #000;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.logo {
+    border-left: 1px solid #aaa;
+}
+
+.logo button {
+    background-color: #ffcd00;
+    border: none;
+    cursor: pointer;
+}
+
+/* #################################  INPUTS  */
+
+.formInput {
+    margin: 4.5% 0;
+    position: absolute;
+    right: 540px;
+}
+
+.formInput form .inputOne {
+    border: none;
+    padding: 5px 14px;
+    margin: 0 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 220px;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+    outline: none;
+    direction: rtl;
+}
+
+.formInput form .inputTwo {
+    border: none;
+    padding: 5px 14px;
+    margin: 0 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 350px;
+    height: 40px;
+    color: #000;
+    font-size: 18px;
+    outline: none;
+    direction: rtl;
+}
+
+.formInput span {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+} 
+
+/* ############################ SEARCH ICON */
+
+.search {
+    position: absolute;
+    top: 7.7%;
+    right: 71%;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.search img {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    color: #aaa;
+    border-radius: 4px;
+}
+
+
+/* ######################### JOBS */
+
+.jobs {
+    position: absolute;
+    top: 5.2%;
+    right: 75%;
+    background-color: #3cbb87;
+    width: 180px;
+    height: 80px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.jobs img {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}

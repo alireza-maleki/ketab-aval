@@ -1,0 +1,135 @@
+.formdetail {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(58, 58, 207), #ab1dcf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formdetail form {
+    background: #fff;
+    width: 25%;
+    height: 700px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.2); 
+    border-radius: 5px;
+}
+
+.formdetail form h1 {
+    margin: 0.2rem auto;
+    color: #000;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.controls {
+    width: 100%;
+    height: 30%;
+    margin: -50px auto;
+    padding: 30px;
+   /* background-color: red; */
+}
+
+.controls label {
+    color: #969292;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.control {
+    margin: 30px;
+    color: #969292;
+    font-size: 18px;
+}
+
+.control input {
+    height: 32px;
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid #000;
+    background-color: #fff;
+    padding: 0.2rem 0.5rem;
+    color: #000;
+    
+}
+
+.forgot {
+    text-align: right;
+    color: rgb(94, 93, 93);
+    margin: 6rem 4rem 1rem 0rem;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    color: rgb(69, 69, 224);
+}
+
+.action {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.action button {
+    margin: 0.8rem auto;
+    width: 78%;
+    background: linear-gradient(to right, rgb(90, 90, 225), #da4ffd);
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.action button:hover {
+    transform: translateY(-3px);
+}
+
+.signup {
+    text-align: center;
+    color: rgb(94, 93, 93);
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media div {
+    margin: 0.2rem 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.media div:hover {
+    transform: translateY(-3px);
+}
+
+.getsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.getsignup  p {
+    color: rgb(94, 93, 93);
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.getsignup  p:hover {
+    color: rgb(69, 69, 224);
+    border-bottom: 1px solid rgb(69, 69, 224);
+}

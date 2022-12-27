@@ -1,0 +1,80 @@
+.filter  {
+    margin-top:-100px;
+    width: 20%;
+    text-align: right;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 440px;
+    /* padding: 0.5rem 1rem; */
+    /* background-color: red; */
+}
+
+.mediafilter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 400px;
+}
+
+.search {
+    border-bottom: 5px solid rgb(88, 88, 240);
+    padding: 0.2rem 1rem;
+    background-color: #efefef;
+}
+
+.input .inputfirst{
+    background: #fff;
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: 1px solid #aaa;
+    width: 90%;
+    text-align: right;
+    color: #000;
+    border-radius: 5px;
+    margin: 0.6rem 1rem;
+    font-size: 18px;
+}
+
+.input p:first-child {
+    padding: 0.2rem 1rem;
+}
+
+.input .inputfilter {
+    margin-left: 60px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.2rem 1rem;
+    /* background-color: red; */
+}
+
+.input .inputfilter input {
+    text-align: right;
+    width: 400px;
+}
+
+.filter .setfilter {
+    width: 90%;
+    /* padding: 0.5rem 1rem; */
+    margin: 0 auto;
+}
+
+.filter .setfilter button {
+    background-color: #2e74b7;
+    width: 100%;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    margin:1rem auto;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter .setfilter button:hover {
+    background-color: #1d62a3;
+}

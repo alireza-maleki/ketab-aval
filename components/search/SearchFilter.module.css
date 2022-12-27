@@ -1,0 +1,113 @@
+.filter {
+    width: 50%;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    direction: rtl;
+    box-shadow: 2px 2px 15px 0 rgb(0 0 0 / 10%);
+    border-radius: 0 0 4px 4px;
+    z-index: 99;
+    padding: 20px 0;
+}
+
+.filter h2 {
+    padding: 20px 15px 0 0;
+    color: #000;
+
+}
+
+.detail button {
+    margin: 10px auto;
+    width: 96%;
+    height: 50px;
+    background-color: #2e74b7;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.detail button:hover,
+.detail button:active {
+    background-color: #2669a7;
+}
+
+.detail {
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 10px 20px;
+}
+
+.search button {
+    border: 1px solid #333;
+    width: 120px;
+    height: 34px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 8px;
+    color: #333;
+    cursor: pointer;
+}
+
+.page {
+    background-color: #f8f8f8;
+    width: 96%;
+    height: 130px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.page h5 {
+    text-align: center;
+    color: #000;
+    padding-top: 10px;
+}
+
+.page button {
+    width: 48%;
+    height: 30px;
+    margin: 3px 8px;
+    color: #333;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #f0f2f7;
+    cursor: pointer;
+}
+
+/* .filter::before {
+    content: '';
+    position: absolute;
+    top: 550px;
+    right: 510px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    transform: rotate(135deg);
+    box-shadow: 2px 2px 15px 10px rgba(18, 11, 11, 0.1);
+    z-index: -1;
+} */
+
+/* .hiden {
+    opacity: 0;
+    display: none;
+} */
+
+.accordionCustom {
+    width: 50%;
+    margin: 2% auto;
+}
+
+.accordionBtn   {
+    width: 100%;
+}
+
+.accordionBtn h2 {
+    text-align: right;
+    margin-right: 26px;
+}

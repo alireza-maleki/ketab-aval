@@ -1,0 +1,23 @@
+.errormui {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    animation: alertanime 0.8s ease-in-out;
+}
+
+@keyframes alertanime {
+    0% {
+        /* bottom: 0px; */
+        left: 0px
+    }
+
+    50% {
+        /* bottom: 30px; */
+        left: 100px
+    }
+
+    100% {
+        /* bottom: 30px; */
+        left: 30px
+    }
+}
